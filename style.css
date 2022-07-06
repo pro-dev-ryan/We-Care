@@ -74,10 +74,10 @@ body {
  
 
 .main-section {
-    margin: 100px 0;
     width: 100%;
     height: 100%;
     text-align: center;
+    background-color: #f0f0f0;
 }
 .section-name {
     margin: 20px 0;
@@ -195,6 +195,7 @@ body {
 .news-img {
     width: 50%;
     margin-right: 20px;
+    border-radius: 10px;
     
 }
 
@@ -217,6 +218,84 @@ body {
 
 /* Gallery Part*/
 
-. {
 
+.Gallery {
+    width: 80%;
+    height: 300px;
+    margin: 50px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(88, 88, 88, 0.719) ;
+
+}
+
+.pic {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.center {
+    width: 80%;
+    height: 200px;
+    margin: 90px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(220, 252, 221);
+    border-radius: 20px;
+}
+
+/* Newsletter part */
+
+.news-btn {
+    margin: 0;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border-left: none;
+    background: linear-gradient( to left, #b4fc92, rgba(255, 255, 255, 0.322));
+}
+
+.email {
+    padding: 8px 10px;
+    border: 2px solid rgb(22, 22, 22);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+/* End of Body */
+
+footer {
+    background: #0a0a0a;
+    height: 150px;
+    color: #e7f8de;
+}
+
+.foot {
+    text-align: center;
+}
+
+.top {
+    padding-top: 20px;
+    color: #c3fca8; 
+    font-size: 1.5rem;
+    font-family: "Nunito Sans" sans-serif;
+}
+
+.special {
+    
+    color: rgb(255, 176, 176);
+}
+
+footer img {
+    height: 50px;
+}
+
+.bottom {
+    font-size: 1.2rem;
+    font-family: "Ubuntu" sans-serif;
+    color: rgb(255, 220, 220);
+    text-transform: capitalize;
 }
